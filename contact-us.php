@@ -71,10 +71,10 @@
                     <div class="panel-body text-center">
                         <h4>Address</h4>
                         <div>
-                        2217 Washington Blvd<br />
-                        Washington DC<br />
-                        #(703) 1234 1234<br />
-                        service@company.com<br />
+                        00100 Nairobi<br />
+                        Kenya<br />
+                        0700 123 123<br />
+                        toptalents@talents.co.ke<br />
                         </div>
                         <hr />
                         <div id="map1" class="map">

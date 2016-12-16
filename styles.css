@@ -261,7 +261,7 @@
 	#background 
 	{ 
 	    background-size: 100%;
-	    background-image: url(images/About_Us.jpg);
+	    background-image: url(images/BackgroundImg.png);
 	    width: 96%;
 	    margin:2em;
 	    height: 650px;
@@ -271,7 +271,7 @@
 
 	 #Background 
 	{ 
-		background-image: url(images/About_Us.jpg);
+		background-image: url(images/BackgroundImg.png);
 	    background-size: cover;
 	    background-position: 50%;
 	    left: 0;
@@ -294,7 +294,7 @@
 
 	 #BackgroundImg 
 	{ 
-		background-image: url(images/About_Us.jpg);
+		background-image: url(images/BackgroundImg.png);
 	    top: -222px;
 	    background-position: 50%;
 	    background-repeat: no-repeat;
