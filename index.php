@@ -24,7 +24,7 @@
 				<div class="" style="padding: 170px 0;">
 					<span class="" style=" margin-left: -30px; background: rgba(238, 238, 238, 0.46); padding: 40px 0 42px 30px;">
 						<img class="" style="" width="15px" src="images/Arrow.png">
-						<a class="" href="about-us.php"><span class="" style="margin:20px; font-size:18px;"> ABOUT US </span></a>
+						<a class="about-us" style="margin:20px; text-decoration: none; font-size:18px;" href="about-us.php"> ABOUT US </a>
 						<img class="" width="150px" src="images/Africanboy.png">
 					</span>
 				</div>

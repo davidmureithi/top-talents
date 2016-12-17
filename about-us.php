@@ -17,7 +17,7 @@
                     <ul class="">                        
                         <li><a class="active" href="index.php">Home </a></li>
                         <li><a href="about-us.php" >About Us </a></li>
-                        <li><a href="#" >Contact Us </a></li>
+                        <li><a href="contact-us.php" >Contact Us </a></li>
                     </ul>
                 </nav>
             </div>
@@ -30,7 +30,7 @@
         <div id="content" class="site-content">
             <div class="container-fluid"style="padding:0;">
                 <div class="col-lg-12" style="padding:0;">
-                    <div class=" pull-left col-md-7" style="padding:0 50px;">
+                    <div class=" pull-left col-md-6" style="padding:0 3%;">
                         <div class="pull-left">
                             <hr class="pull-right hr-red">
                             <div class="clearfix"></div>
@@ -53,15 +53,15 @@
                         </div>
                     </div>
 
-                    <div class="pull-right col-md-offset-1 col-md-4" style="padding:0;">
-                        <div class="insurance-subscribe">
-                            <div class="quote">
-                                <div class="past-results">
-                                    <span>Download Past  <br>  KCPE Results</span>
-                                </div>
-                                <span><img style=" width:50%; margin: 2em 7.5em;" src="images/book.png" alt="Logo"></span>
-                                <input type="submit" name="vehicle" value="Past Results">
-                            </div>
+                    <div class="pull-right col-md-offset-1 col-md-4 quote" style="padding:0;">
+                        <div class="past-results">
+                            Download Past  <br>  KCPE Results
+                        </div>
+                        <div class="pastresults">
+                            <img style=" width:50%;" src="images/book.png" alt="Logo">
+                        </div>
+                        <div class="pastresults">
+                            <input type="submit" name="vehicle" value="Past Results">
                         </div>
                     </div>
                     <div class="clearfix"></div>

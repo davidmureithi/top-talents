@@ -88,11 +88,11 @@
         background-color: transparent;
     }
     input[type="submit"]{
-        padding: 10px;
-        border: 1px solid white;
+        padding: 0.5em 2em;
+        border: 0px solid white;
         color: white;
-        background-color: transparent;
-        margin: 50px 145px;
+        background-color: darkred;
+        margin: 16% auto;
         font-size: 23px;
     }
 
@@ -185,10 +185,14 @@
         border-top: 2px solid #eee;
         width: 60px;
     }
+
+    p{
+        font-size: 17px;
+    }
     
     ul{
 	    line-height: 13px;
-	    padding: 30px 0;
+	    padding: 5px 0;
 	    color: #dfdfdf;
 	    -webkit-box-sizing: border-box;
 	    -moz-box-sizing: border-box;
@@ -207,6 +211,15 @@
         margin: 0 auto;
         overflow: hidden;
         padding:20px 0 0 0;
+    }
+
+    .about-us{
+        text-decoration: none;
+    }
+
+    .about-us:hover, .about-us:focus{
+        text-decoration: none;
+        color: red;
     }
 
     .field-domestic input[type="text"]{
@@ -281,6 +294,11 @@
 	    height: 638px;
 	    z-index: 1;
 	} 
+
+    .top-image {
+        background-image: url(images/parade.png);
+        background-size: 100%; 
+    }
 
 	#Backgorund 
 	{ 
@@ -570,10 +588,7 @@
         margin: 20px auto;
         width: 100%;
     }
-    .top-image {
-        background-image: url(images/Homepage.jpg);
-        background-size: 100%; 
-    }
+    
     .contact{
         background-color: #003663;
     }
@@ -702,7 +717,7 @@
     }
 
     .past-results{
-    	padding: 60px;
+    	padding: 12% 0 10%;
 	    font-size: 35px;
 	    line-height: 1.4em;
 	    text-align: center;
@@ -712,10 +727,10 @@
 
     .hr-red{
         color:red;
-        border:2px red solid;
+        border:3px red solid;
         margin: 5px 18px;
         margin-top: 50px;
-        width: 54%;
+        width: 60.5%;
     }
 
     .sec2{
@@ -759,18 +774,20 @@
         background-position-x: -200px;
     }
     .quote{
-        background: url(images/red.png);
+/*        background: url(images/red.png);
+*/      background-color: #B80A0B;
         width: 100%;
         color: white;
+        text-align: center;
     }
-    .quote h2{
+    /*.quote h2{
         font-size: .9em;
         width: 77%;
         padding-top: 70px;
     }
     .quote label, h2, input[type="text"]{
-/*        text-align: center;
-*/    }
+        text-align: center;
+    }
     .quote h2{
         text-transform: uppercase;
     }
@@ -779,7 +796,7 @@
         font-size: 1.4em;
         font-weight: normal;
         padding-right: 53px;
-    }
+    }*/
 
     .checkbox-insurance{
         margin-bottom: 10px;
