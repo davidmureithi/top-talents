@@ -80,7 +80,8 @@
         <div class="col-md-6">
             <div>
                 <div class="panel panel-default">
-                    <div class="text-center header">Our Office</div>
+                <div id="map1" class="map">
+                        </div>
                     <div class="panel-body text-center">
                         <h4>Address</h4>
                         <div>
@@ -89,9 +90,7 @@
                         0700 123 123<br />
                         toptalents@talents.co.ke<br />
                         </div>
-                        <hr />
-                        <div id="map1" class="map">
-                        </div>
+                        
                     </div>
                 </div>
             </div>
