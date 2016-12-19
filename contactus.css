@@ -70,3 +70,13 @@
         font-weight: 700;
         font-size: initial;
     }
+
+    footer{
+        background-color: #26262E;
+        width:100%;
+        margin: 0 auto;
+        overflow: hidden;
+        padding:20px 0 0 0;
+        text-align: center;
+        color: white;
+    }

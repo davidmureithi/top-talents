@@ -62,6 +62,20 @@
 			</div>
 			<div class="clearfix"></div>
 		</div>
+		<footer>
+        <div class="home-footer">
+            <div class="page-wrapper" style="margin: 0 10%">
+                <div class="col-lg-12">
+                    <div class="footercontent">
+                        <div class="copyright pull-left">
+                        <!--    &copy;  &#169;  &#xA9;  &#9400;    -->                            
+                        <span>&#9400; 2016. All Rights Reserved. Designed by Tatu Creatives Ltd.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
  	</body>
  	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/4.0.2/bootstrap-material-design.iife.js" type="text/javascript"></script>
  </html>
