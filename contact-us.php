@@ -38,7 +38,7 @@
             <div class="well well-sm">
                 <form class="form-horizontal" method="post">
                     <fieldset>
-                        <legend class="text-center header">Contact us</legend>
+                        <legend class="text-center">Contact us</legend>
                         <div class="form-group">
                             <div class="col-md-10 col-md-offset-1">
                                 <input id="fname" name="name" type="text" placeholder="First Name" class="form-control">
