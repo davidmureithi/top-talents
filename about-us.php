@@ -71,16 +71,32 @@
     </section>
 
 
-    <section id="photos">
-            <img src="images/parade.png" alt="Logo">
-            <img src="images/classrooms.png" alt="Logo">
-            <img src="images/children_parade.png" alt="Logo">
-            <img src="images/bus2.png" alt="Logo">
-            <img src="images/playing_soccer.png" alt="Logo">
-            <img src="images/classrooms_back.png" alt="Logo">
-            <img src="images/attention.png" alt="Logo">
-            <img src="images/girls_singing.png" alt="Logo">
-    </section>
+    <section class="main-section">
+                    <div class="photo">
+                        <div class="bus1">
+                            <img src="images/bus1.png">
+                        </div>
+                        <div class="parade">
+                            <img src="images/children_parade.png">
+                        </div>
+                        <div class="soccer">
+                            <img src="images/playing_soccer.png">
+                        </div>
+                        <div class="singing">
+                            <img src="images/girls_singing.png">
+                        </div>
+                    </div>
+                    
+                    <div class="attention">
+                        <img src="images/attention.png">
+                    </div>
+                     <div class="classrooms_back">
+                        <img src="images/classrooms_back.png">
+                    </div>
+                    <div class="classrooms">
+                        <img src="images/classrooms.png">
+                    </div>
+                    </section>
 
     <footer>
         <div class="home-footer">

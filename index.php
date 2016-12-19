@@ -14,7 +14,7 @@
 <!--                         <img class="pull-left logo" src="images/logo.png" alt="Logo">
  -->                    </a>
                     <ul class="">
-					<li><a class="active" href="index.php">Home </a></li>
+						<li><a class="active" href="index.php">Home </a></li>
                         <li><a href="about-us.php" >About Us </a></li>
                         <li><a href="contact-us.php" >Contact Us </a></li>
                     </ul>

@@ -40,10 +40,15 @@
         display:inline-block;
     }
 
+
     nav ul li a, a:visited{
         padding-bottom: 13px;
         color: black;
     }
+
+    #contactForm .form-group {
+    padding: 1px 0;
+	}
 
     select{
 	    border-top: 1px solid white;
@@ -56,6 +61,50 @@
 	    color: white;
 		width: 100%;
 		font-size: 23px;
+	}
+
+	.main-section{
+		width: 100%;
+	}
+	.soccer img{
+		width: 54%;
+		height: 210px;
+		padding-top: 2px;
+		float: left;
+	}
+	.photo{
+		width: 75%;
+		float: left;
+	}
+	.bus1 img{
+		width: 44%;
+		height: 210px;
+		float: left;
+	}
+	.parade img{
+	width: 55%;
+	height: 210px;
+	float: right;
+	}
+	.singing img{
+		width: 45%;
+		height: 210px;
+		float: right;
+	}
+	.attention img{
+		width: 24%;
+		height: 417px;
+		float: right;
+	}
+	.classrooms_back img{
+		width: 38%;
+		height: 240px;
+		float: left;
+	}
+	.classrooms img{
+		width: 62%;
+		height: 240px;
+		float: right;
 	}
 
 	option
