@@ -1,5 +1,5 @@
 .main-body{
-        width: 90%;
+        width: 100%;
         background-color: rgba(245, 245, 245, 0.81) !important;
         margin:0 auto;
         overflow: hidden;
@@ -13,12 +13,16 @@
         text-transform: uppercase;
     }
 
-    nav ul li .active{
+    nav ul li a:active{
         color: red;
+        font-weight: 700;
     }
 
     nav ul li a:hover{
        text-decoration: none;
+    }
+    nav ul li a{
+       padding-top: 19px;
     }
 
     nav ul{
@@ -48,7 +52,7 @@
     }
 
     nav ul li a:hover{
-    /* border-bottom: 5px solid blue;
+       border-top: 3px solid rgb(238, 75, 55);
 */     text-decoration: none;
     }
 
@@ -67,7 +71,7 @@
         text-align: -webkit-match-parent;
         margin: 0;
         list-style-type: none;
-        font-weight: 700;
+        font-weight: 550;
         font-size: initial;
     }
 
@@ -79,4 +83,15 @@
         padding:20px 0 0 0;
         text-align: center;
         color: white;
+    }
+
+    #background 
+    { 
+        background-size: 100%;
+        background-image: url(images/test.png);
+        width: 96%;
+        margin:2em;
+        height: 430px;
+        overflow: hidden;
+        z-index: 0;
     }

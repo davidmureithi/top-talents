@@ -14,27 +14,29 @@
 </head>
 <body>
 
-<div class="container">
+<div>
 
-<div class="page-header">
-<div class="main-body">
+<div class="main-body" id="background">
+                <div class="main-body" style="margin-top:30px; width: 90%;">
                 <nav>
                     <a href="index.php">
 <!--                         <img class="pull-left logo" src="images/logo.png" alt="Logo">
  -->                    </a>
-                    <ul style="float: right;">                        
-                        <li><a href="index.php">Home </a></li>
+                    <ul class="">
+                        <li><a class="active" href="index.php">Home </a></li>
                         <li><a href="about-us.php" >About Us </a></li>
                         <li><a href="contact-us.php" >Contact Us </a></li>
                     </ul>
                 </nav>
             </div>
-</div>
+            </div>
+
 
 <!-- Contact with Map - START -->
 <div class="container">
     <div class="row">
-    <legend style="float: left; padding-left: 25px; font-size: 24px; text-transform: uppercase;"><b>Contact us</b></legend>
+    
+    <legend style="float: left; padding-left: 25px; font-size: 24px; text-transform: uppercase;"><div style="border-bottom: 2px solid rgb(238, 75, 55);; height: 41px; width: 17%;"><b>Contact us</b></div></legend>
     <span style=""></span>
         <div class="col-md-6">
             <div class="well well-sm">
