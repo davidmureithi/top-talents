@@ -14,31 +14,35 @@
 </head>
 <body>
 
-<div class="container">
+<div>
 
-<div class="page-header">
-<div class="main-body">
+<div class="main-body" id="background">
+                <div class="main-body" style="margin-top:30px; width: 90%;">
                 <nav>
                     <a href="index.php">
 <!--                         <img class="pull-left logo" src="images/logo.png" alt="Logo">
  -->                    </a>
-                    <ul class="">                        
-                        <li><a href="index.php">Home </a></li>
+                    <ul class="">
+                        <li><a class="active" href="index.php">Home </a></li>
                         <li><a href="about-us.php" >About Us </a></li>
                         <li><a href="contact-us.php" >Contact Us </a></li>
                     </ul>
                 </nav>
             </div>
-</div>
+            </div>
+
 
 <!-- Contact with Map - START -->
 <div class="container">
     <div class="row">
+    
+    <legend style="float: left; padding-left: 25px; font-size: 24px; text-transform: uppercase;"><div style="border-bottom: 2px solid rgb(238, 75, 55);; height: 41px; width: 17%;"><b>Contact us</b></div></legend>
+    <span style=""></span>
         <div class="col-md-6">
             <div class="well well-sm">
                 <form class="form-horizontal" method="post">
                     <fieldset>
-                        <legend class="text-center header">Contact us</legend>
+                        
                         <div class="form-group">
                             <div class="col-md-10 col-md-offset-1">
                                 <input id="fname" name="name" type="text" placeholder="First Name" class="form-control">
@@ -70,7 +74,7 @@
 
                         <div class="form-group">
                             <div class="col-md-12 text-center">
-                                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                                <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
                             </div>
                         </div>
                     </fieldset>
@@ -80,8 +84,9 @@
         <div class="col-md-6">
             <div>
                 <div class="panel panel-default">
-                    <div class="text-center header">Our Office</div>
-                    <div class="panel-body text-center">
+                <div id="map1" class="map">
+                        </div>
+                    <div class="panel-body" style="background-color: rgb(238, 75, 55); color: white; text-align: left;">
                         <h4>Address</h4>
                         <div>
                         00100 Nairobi<br />
@@ -89,9 +94,7 @@
                         0700 123 123<br />
                         toptalents@talents.co.ke<br />
                         </div>
-                        <hr />
-                        <div id="map1" class="map">
-                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -142,6 +145,21 @@
 <!-- Contact with Map - END -->
 
 </div>
+
+<footer>
+        <div class="home-footer">
+            <div class="page-wrapper" style="margin: 0 10%">
+                <div class="col-lg-12" style="float: center; padding-bottom: 15px;">
+                    <div class="footercontent">
+                        <div class="copyright">
+                        <!--    &copy;  &#169;  &#xA9;  &#9400;    -->                            
+                        <span>&#9400; 2016. All Rights Reserved. Designed by Tatu Creatives Ltd.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
